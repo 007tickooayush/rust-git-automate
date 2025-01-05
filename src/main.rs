@@ -1,3 +1,8 @@
+use crate::handler::handler::update_commit_push;
+
+mod handler;
+mod utils;
+
 fn main() {
-    println!("Hello, world!");
+    update_commit_push();
 }
